@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AttackTelephone.sol": "AttackTelephone"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AttackTelephone.sol": {
+			"keccak256": "0x9579eb2b8c22ff4c386df6bb62ab2e7c7a452a8a490fb9d40aa2db52436e804c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d1fa9e2e6c6ec17dd6acd727c24f2719d77b3c93f5b26f8780ccdd985b62a90",
+				"dweb:/ipfs/QmSiQgnCvEf2gKJJzkVhGswsCLtZbPZRWxfPhp3m8zv4dp"
+			]
+		}
+	},
+	"version": 1
+}

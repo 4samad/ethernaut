@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "flip",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AttackCoinFlip.sol": "CoinFlipInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AttackCoinFlip.sol": {
+			"keccak256": "0x98fe10a97f1680a590283511e66000fd4081cf286510949b1ed69b0a9d987737",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f100f0306d167374d0fa1e5bfbbd799ffdf784f0ffa9c07a9195e8618edfc96",
+				"dweb:/ipfs/QmbbqmPQrwkdv6W9PiNus7bubY3GqWr4FMARNLM38MXwQw"
+			]
+		},
+		"contracts/openzeppelin/SafeMath.sol": {
+			"keccak256": "0x7b8e55374e9531825f0574ae875a237f1b216dcfcdd44db1089b0cb8ae487386",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd6041295c94b13dccadc9ad2c3551406a94675c462dd2f8c8b1ab9d25f8478f",
+				"dweb:/ipfs/QmS14B7UL9QKGcofpawaeaXYpqmcVdshxpNiegFWBMHTWH"
+			]
+		}
+	},
+	"version": 1
+}
